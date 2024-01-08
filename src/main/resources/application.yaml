@@ -1,0 +1,20 @@
+server:
+  port: 8082
+
+application:
+  security:
+    jwt:
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/medBlog
+
+cloudinary:
+  cloud_name: "ddhyzyvmp"
+  api_key: "499422265967399"
+  api_secret: "o-9RNNUKuufv7sTO-Y77XbHJ7dU"
+
+api:
+  url: "http://us-central1-plant-disease-detection-2024.cloudfunctions.net/predict?file"
